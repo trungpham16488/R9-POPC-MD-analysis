@@ -184,7 +184,8 @@ If you use these scripts, please cite:
   title   = {MD Simulation Analysis: R9 Peptide-POPC Membrane Interaction},
   author  = {Pham, Duc-Trung},
   year    = {2026},
-  doi     = {10.XXXX/zenodo.XXXXXX},
+  doi     = {10.5281/zenodo.20121815}
+},
   url     = {https://github.com/[your-lab]/R9-POPC-MD-analysis}
 }
 ```
@@ -198,4 +199,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 Duc-Trung Pham
 BioMEMS & Bio-impedance Lab
 Department of Biomedical Engineering, Gachon University
-Email: [your email]
+Email: trungpham16488@gmail.com; trungpd19589@gachon.ac.kr
