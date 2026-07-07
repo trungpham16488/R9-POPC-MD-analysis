@@ -13,7 +13,7 @@ binding energetics, structural dynamics, and membrane interaction mechanisms ess
 > **Computationally Engineered Peptide-Exosome Nanocarriers for Continuous Bioelectronic Monitoring of 3D Epidermal Regeneration**
 > Pham D.-T., et al. 
 > *Advanced Functional Materials (2026), under review.*
-> DOI: [10.5281/zenodo.20121815]
+> *DOI 10.5281/zenodo.20121815*
 
 ## Key Findings
 
