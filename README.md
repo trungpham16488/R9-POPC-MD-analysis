@@ -1,6 +1,6 @@
 # MD Simulation Analysis: R9 Peptide–POPC Membrane Interaction
 
-[![DOI](https://img.shields.io/badge/DOI-10.XXXX%2Fzenodo.XXXXXX-blue)](https://doi.org/10.5281/zenodo.20121815)
+[![DOI]((https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20121815)-blue)](https://doi.org/10.5281/zenodo.20121815)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GROMACS](https://img.shields.io/badge/GROMACS-2023.4-green)](https://www.gromacs.org)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org)
