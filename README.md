@@ -1,14 +1,13 @@
 # MD Simulation Analysis: R9 Peptide–POPC Membrane Interaction
 
-[![DOI](https://img.shields.io/badge/DOI-10.XXXX%2Fzenodo.XXXXXX-blue)](https://doi.org/10.XXXX/zenodo.XXXXXX)
+[![DOI](https://img.shields.io/badge/DOI-10.XXXX%2Fzenodo.XXXXXX-blue)](https://doi.org/10.5281/zenodo.20121815)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GROMACS](https://img.shields.io/badge/GROMACS-2023.4-green)](https://www.gromacs.org)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org)
 
 ## Overview
 
-This repository contains the complete computational analysis and reproducible workflow for molecular dynamics simulations investigating R9 peptide insertion into POPC lipid bilayers. The study characterizes 
-binding energetics, structural dynamics, and membrane interaction mechanisms essential for understanding R9-functionalized exosome design, as reported in:
+This repository contains the complete computational analysis and reproducible workflow for molecular dynamics simulations investigating R9 peptide insertion into POPC lipid bilayers. The study characterizes binding energetics, structural dynamics, and membrane interaction mechanisms essential for understanding R9-functionalized exosome design, as reported in:
 
 > **Computationally Engineered Peptide-Exosome Nanocarriers for Continuous Bioelectronic Monitoring of 3D Epidermal Regeneration**
 > Pham D.-T., et al. 
@@ -175,14 +174,14 @@ If you use these scripts, please cite:
 @article{pham2026r9exosome,
   title   = {[Your paper title]},
   author  = {Pham, Duc-Trung and [Co-authors] and Cho, Sungbo},
-  journal = {Nature Communications},
+  journal = {Advanced Functional Materials},
   year    = {2026},
-  doi     = {[paper DOI]}
+  doi     = {(https://doi.org/10.5281/zenodo.20121815)}
 }
 
 @software{pham2026r9code,
   title   = {MD Simulation Analysis: R9 Peptide-POPC Membrane Interaction},
-  author  = {Pham, Duc-Trung},
+  author  = {Pham, Duc-Trung, et al},
   year    = {2026},
   doi     = {10.5281/zenodo.20121815}
 },
@@ -198,5 +197,5 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 Duc-Trung Pham
 BioMEMS & Bio-impedance Lab
-Department of Biomedical Engineering, Gachon University
+Department of Electronic Engineering, Gachon University
 Email: trungpham16488@gmail.com; trungpd19589@gachon.ac.kr
