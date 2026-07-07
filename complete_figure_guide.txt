@@ -1,13 +1,13 @@
 ================================================================================
 complete_figure_guide.txt
 R9 peptide -- POPC membrane MD simulation
-Nature Communications manuscript figure guide
+Advanced Functional Materials manuscript figure guide
 ================================================================================
 
 Generated for: R9-exosome paper (Duc-Trung Pham, Gachon University)
 Simulation:    1 ns, GROMACS 2023.4, CHARMM36m, 303.15 K, 1 bar
 System:        50,683 atoms (R9 peptide + 164 POPC + TIP3P water + KCl)
-Path:          ~/Simulation-250918/charmm-gui-5860297243/gromacs/
+Path:          ~/md_simulations/r9_popc
 
 ================================================================================
 QUICK START
@@ -25,14 +25,22 @@ Step 3 -- Export source data CSVs:
   python3 ~/export_source_data.py
 
 Step 4 -- Upload to journal:
-  figures_nature/Figure_2a_binding_energy.png      -> Main Fig. 2a
-  figures_nature/Figure_2b_R9_POPC_snapshot.png    -> Main Fig. 2b
-  figures_nature/Supp_S1_combined.png              -> Supp. Fig. S1
-  source_data/Figure2a_source_data.csv             -> Source data 2a
-  source_data/Supp_S1a-f_source_data.csv           -> Source data S1
+Manuscript.docx                           ← Main document
+├─ Figures embedded or separate PDFs
+├─ Figure_2a_binding_energy.png          → AFM Main Fig. 2a
+├─ Figure_2b_R9_POPC_snapshot.png        → AFM Main Fig. 2b
+├─ Supplementary_Figure_S1_combined.png  → AFM Supp Fig. S1
+├─ Supplementary_Table_1_source_data.csv → Source Data
+└─ Supplementary_Code_1.zip
+   ├── export_source_data.py
+   ├── generate_all_figures.py
+   ├── pymol_structure_visualization.py
+   ├── analysis_commands.sh
+   ├── requirements.txt
+   └── README.md
 
 ================================================================================
-MAIN FIGURE 2 -- PANELS
+MAIN FIGURE 1 -- PANELS
 ================================================================================
 
 --------------------------------------------------------------------------------
