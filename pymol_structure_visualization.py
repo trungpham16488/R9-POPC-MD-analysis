@@ -19,7 +19,7 @@ Input files required (in gromacs folder):
   step7.xtc   -- trajectory (for selecting frame at 1 ns)
   step7.tpr   -- topology
 
-Color scheme (Nature Communications):
+Color scheme (Advanced Functional Materials):
   R9 peptide    -- dark blue spheres  (#1A3A6B)
   POPC lipids   -- cyan sticks        (#00CED1)
   Phosphorus    -- purple spheres     (#8B008B)
@@ -27,7 +27,7 @@ Color scheme (Nature Communications):
   Cl- ions      -- orange spheres     (#FF8C00)
   Water         -- hidden
 
-Author: Generated for R9-exosome Nature Communications manuscript
+Author: Generated for "Computationally Engineered Peptide-Exosome Nanocarriers for Continuous Bioelectronic Monitoring of 3D Epidermal Regeneration" Advanced Functional Materials manuscript
 """
 
 # ══════════════════════════════════════════════════════════
