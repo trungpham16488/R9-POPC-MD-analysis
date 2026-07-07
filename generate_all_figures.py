@@ -23,7 +23,7 @@ Usage:
 Requirements:
   pip3 install matplotlib numpy scipy --break-system-packages
 
-Author: Generated for R9-exosome Nature Communications manuscript
+Author: "Generated for Computationally Engineered Peptide-Exosome Nanocarriers for Continuous Bioelectronic Monitoring of 3D Epidermal Regeneration" Advanced Functional Materials manuscript
 """
 
 import numpy as np
