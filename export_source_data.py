@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""export_source_data.py — exports all .xvg to Nature CSV source data."""
+"""export_source_data.py — exports all .xvg to ACS CSV source data."""
 import numpy as np
 from pathlib import Path
 
@@ -19,14 +19,14 @@ def read_ts(fp):
     if len(t)>0 and t.max()>100: t/=1000.0
     return t,d
 
-# Fig. 2a
+# Fig. 1a
 rows=[["Energy_term","Mean_kJ_mol","SD_kJ_mol","Mean_kcal_mol","SD_kcal_mol","N_steps"],
       ["Coulomb_SR",-97.611,30.0,-23.33,7.17,250001],
       ["LJ_SR",-136.527,7.4,-32.63,1.77,250001],
       ["Total",-234.138,30.4,-55.96,7.27,250001]]
-with open(OUT_DIR/"Figure2a_source_data.csv","w") as f:
+with open(OUT_DIR/"Figure1a_source_data.csv","w") as f:
     for r in rows: f.write(",".join(str(x) for x in r)+"\n")
-print("Saved -> Figure2a_source_data.csv")
+print("Saved -> Figure1a_source_data.csv")
 
 for xvg,csv,hdr in [
     ("contacts_dist.xvg","Supp_S1a_source_data.csv","Time_ns,Min_distance_nm"),
