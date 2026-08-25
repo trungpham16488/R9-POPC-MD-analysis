@@ -11,16 +11,16 @@ This repository contains the complete computational analysis and reproducible wo
 
 > **Computationally Engineered Peptide-Exosome Nanocarriers for Continuous Bioelectronic Monitoring of 3D Epidermal Regeneration**
 > Pham D.-T., et al. 
-> *Advanced Functional Materials (2026), under review.*
+> *ACS Nano (2026).*
 > *DOI 10.5281/zenodo.20121815*
 
 ## Key Findings
 
 | Parameter | Value | Figure |
 |---|---|---|
-| Coulomb interaction | −97.6 ± 30.0 kJ mol⁻¹ | Fig. 2a |
-| LJ van der Waals | −136.5 ± 7.4 kJ mol⁻¹ | Fig. 2a |
-| Total binding energy | −234.1 ± 30.4 kJ mol⁻¹ | Fig. 2a |
+| Coulomb interaction | −97.6 ± 30.0 kJ mol⁻¹ | Fig. 1a |
+| LJ van der Waals | −136.5 ± 7.4 kJ mol⁻¹ | Fig. 1a |
+| Total binding energy | −234.1 ± 30.4 kJ mol⁻¹ | Fig. 1a |
 | Min. distance (eq.) | 0.173 ± 0.006 nm | Supp. S1a |
 | H-bonds (eq.) | 3.0 ± 0.8 | Supp. S1b |
 | Contacts (eq.) | 2,357 ± 107 | Supp. S1c |
@@ -53,7 +53,7 @@ This repository contains the complete computational analysis and reproducible wo
 ### Software
 - GROMACS 2023.4 ([download](https://www.gromacs.org/))
 - Python 3.8+
-- PyMOL 2.5 ([download](https://pymol.org/)) — for Fig. 2b only
+- PyMOL 2.5 ([download](https://pymol.org/)) — for Fig. 1b only
 
 ### Python packages
 ```bash
