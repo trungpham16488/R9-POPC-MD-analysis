@@ -2,7 +2,7 @@
 """
 pymol_structure_visualization.py
 =================================
-Generates Figure 2b — PyMOL snapshot of R9 peptide in POPC bilayer.
+Generates Figure 1b — PyMOL snapshot of R9 peptide in POPC bilayer.
 
 Run this script FROM WITHIN PyMOL:
   File > Run Script > select this file
@@ -11,15 +11,15 @@ OR from command line (if PyMOL is installed with Python API):
   pymol -c pymol_structure_visualization.py
 
 Output:
-  Figure_2b_R9_POPC_snapshot.png  (300 dpi, Nature-ready)
-  Figure_2b_R9_POPC_snapshot.pdf
+  Figure_1b_R9_POPC_snapshot.png  (300 dpi, ACS Nano-ready)
+  Figure_1b_R9_POPC_snapshot.pdf
 
 Input files required (in gromacs folder):
   step7.gro   -- final frame structure
   step7.xtc   -- trajectory (for selecting frame at 1 ns)
   step7.tpr   -- topology
 
-Color scheme (Advanced Functional Materials):
+Color scheme (ACS Nano):
   R9 peptide    -- dark blue spheres  (#1A3A6B)
   POPC lipids   -- cyan sticks        (#00CED1)
   Phosphorus    -- purple spheres     (#8B008B)
@@ -39,7 +39,7 @@ from pathlib import Path
 GROMACS_DIR = str(Path.home() / "Simulation-250918/charmm-gui-5860297243/gromacs")
 OUTPUT_DIR  = str(Path.home() / "Simulation-250918/charmm-gui-5860297243/gromacs/figures_nature")
 GRO_FILE    = f"{GROMACS_DIR}/step7.gro"
-OUTPUT_PNG  = f"{OUTPUT_DIR}/Figure_2b_R9_POPC_snapshot.png"
+OUTPUT_PNG  = f"{OUTPUT_DIR}/Figure_1b_R9_POPC_snapshot.png"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
