@@ -155,8 +155,8 @@ Running `generate_all_figures.py` produces:
 
 ```
 figures_nature/
-├── Figure_2a_binding_energy.png/pdf     # Main Fig. 2a — bar chart
-├── Figure_2b_snapshot_placeholder.png   # Replace with PyMOL output
+├── Figure_1a_binding_energy.png/pdf     # Main Fig. 1a — bar chart
+├── Figure_1b_snapshot_placeholder.png   # Replace with PyMOL output
 ├── Supp_S1a_distance.png/pdf           # Min. distance
 ├── Supp_S1b_hbonds.png/pdf             # H-bonds
 ├── Supp_S1c_contacts.png/pdf           # Lipid contacts
