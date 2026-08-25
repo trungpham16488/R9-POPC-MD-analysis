@@ -5,8 +5,8 @@ generate_all_figures.py
 Generates ALL figure panels for R9-POPC MD simulation analysis.
 
 Produces:
-  Figure_2a_binding_energy.png/pdf     -- Main Fig. 2a (bar chart)
-  Figure_2b_snapshot.png               -- Main Fig. 2b (PyMOL snapshot placeholder)
+  Figure_2a_binding_energy.png/pdf     -- Main Fig. 1a (bar chart)
+  Figure_2b_snapshot.png               -- Main Fig. 1b (PyMOL snapshot placeholder)
   Supp_S1a_distance.png/pdf            -- Supp. S1a
   Supp_S1b_hbonds.png/pdf              -- Supp. S1b
   Supp_S1c_contacts.png/pdf            -- Supp. S1c
@@ -59,7 +59,7 @@ ENERGY = {
     "total_mean":  -234.138,  "total_sd":  30.4,
 }
 
-# Nature-compliant colors
+# ACS-compliant colors
 COLORS = {
     "dist":       "#185FA5",
     "hbond_num":  "#0F6E56",
@@ -290,7 +290,7 @@ def draw_energy_bar(ax, letter):
 
 
 # ══════════════════════════════════════════════════════════
-# MAIN FIGURE 2 (panels a + b placeholder)
+# MAIN FIGURE 1 (panels a + b placeholder)
 # ══════════════════════════════════════════════════════════
 def make_figure2_main():
     """Generate main Figure 2 panels a and b."""
@@ -429,7 +429,7 @@ def print_stats():
     print("STATISTICS SUMMARY FOR MANUSCRIPT")
     print("="*60)
 
-    print("\nFig. 2a — Binding energy (gmx energy, 250,001 steps):")
+    print("\nFig. 1a — Binding energy (gmx energy, 250,001 steps):")
     print(f"  Coulomb: {ENERGY['coulomb_mean']:.1f} ± {ENERGY['coulomb_sd']:.1f} kJ/mol"
           f"  ({ENERGY['coulomb_mean']/4.184:.1f} ± {ENERGY['coulomb_sd']/4.184:.1f} kcal/mol)")
     print(f"  LJ:      {ENERGY['lj_mean']:.1f} ± {ENERGY['lj_sd']:.1f} kJ/mol"
@@ -462,7 +462,7 @@ def print_stats():
 # ══════════════════════════════════════════════════════════
 if __name__ == "__main__":
     print("R9-POPC MD Simulation Figure Generator")
-    print("Nature Communications format")
+    print("ACS Nano format")
     print(f"Output: {OUT_DIR}\n")
 
     check_files()
@@ -472,7 +472,7 @@ if __name__ == "__main__":
     print_stats()
 
     print("\nDone! Files generated:")
-    print("  Main:  Figure_2a_binding_energy.png/pdf")
-    print("         Figure_2b_snapshot_placeholder.png/pdf")
+    print("  Main:  Figure_1a_binding_energy.png/pdf")
+    print("         Figure_1b_snapshot_placeholder.png/pdf")
     print("  Supp:  Supp_S1a through S1f (individual + combined)")
     print("\nNext step: Run pymol_structure_visualization.py for Fig. 2b")
