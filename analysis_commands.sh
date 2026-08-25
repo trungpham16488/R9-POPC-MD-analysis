@@ -2,7 +2,7 @@
 # =============================================================================
 # analysis_commands.sh
 # Complete GROMACS analysis workflow for R9-POPC MD simulation
-# Advanced Functional Materials manuscript — Figure 2 & Supplementary S1
+# ACS Nano manuscript — Figure 1 & Supplementary S1
 #
 # Usage:
 #   cd ~/Simulation-250918/charmm-gui-5860297243/gromacs/
@@ -72,10 +72,10 @@ echo "MEMB" | gmx density \
 echo "  -> density_z.xvg (Supp. S1f)"
 
 # =============================================================================
-# STEP 5 — Interaction energy reanalysis (Fig. 2a)
+# STEP 5 — Interaction energy reanalysis (Fig. 1a)
 # =============================================================================
 echo ""
-echo "Step 5: Interaction energy reanalysis (Fig. 2a)..."
+echo "Step 5: Interaction energy reanalysis (Fig. 1a)..."
 echo "  5a: Creating rerun.mdp with SOLU-MEMB energy groups..."
 sed 's/energygrps               =/energygrps               = SOLU MEMB/' \
     mdout.mdp > rerun.mdp
@@ -120,7 +120,7 @@ files=(
     "rmsd.xvg:Supp S1d - RMSD"
     "hbond_dist.xvg:Supp S1e - H-bond distribution"
     "density_z.xvg:Supp S1f - Density"
-    "interaction_energy.xvg:Fig 2a - Binding energy"
+    "interaction_energy.xvg:Fig 1a - Binding energy"
 )
 
 all_ok=true
