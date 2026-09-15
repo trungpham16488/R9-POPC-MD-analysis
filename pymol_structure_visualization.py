@@ -27,8 +27,7 @@ Color scheme (ACS Nano):
   Cl- ions      -- orange spheres     (#FF8C00)
   Water         -- hidden
 
-Author: Generated for "Computationally Engineered Peptide-Exosome Nanocarriers for Continuous Bioelectronic Monitoring of 3D Epidermal Regeneration" Advanced Functional Materials manuscript
-"""
+Author: Generated for "Computationally Engineered R9-Exosome Nanocarriers and Label-Free Impedimetric Monitoring for Theranostic 3D Epidermal Regeneration"
 
 # ══════════════════════════════════════════════════════════
 # CONFIGURATION
