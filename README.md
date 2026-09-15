@@ -9,9 +9,8 @@
 
 This repository contains the complete computational analysis and reproducible workflow for molecular dynamics simulations investigating R9 peptide insertion into POPC lipid bilayers. The study characterizes binding energetics, structural dynamics, and membrane interaction mechanisms essential for understanding R9-functionalized exosome design, as reported in:
 
-> **Computationally Engineered Peptide-Exosome Nanocarriers for Continuous Bioelectronic Monitoring of 3D Epidermal Regeneration**
+> **Computationally Engineered R9-Exosome Nanocarriers and Label-Free Impedimetric Monitoring for Theranostic 3D Epidermal Regeneration**
 > Pham D.-T., et al. 
-> *ACS Nano (2026).*
 > *DOI 10.5281/zenodo.20121815*
 
 ## Key Findings
