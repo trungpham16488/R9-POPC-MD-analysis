@@ -1,7 +1,6 @@
 ================================================================================
 complete_figure_guide.txt
 R9 peptide -- POPC membrane MD simulation
-ACS Nano manuscript figure guide
 ================================================================================
 
 Generated for: R9-exosome paper (Duc-Trung Pham, Gachon University)
