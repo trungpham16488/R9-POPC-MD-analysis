@@ -2,7 +2,7 @@
 # =============================================================================
 # analysis_commands.sh
 # Complete GROMACS analysis workflow for R9-POPC MD simulation
-# ACS Nano manuscript — Figure 1 & Supplementary S1
+# Figure 1 & Supplementary S1
 #
 # Usage:
 #   cd ~/Simulation-250918/charmm-gui-5860297243/gromacs/
