@@ -173,7 +173,6 @@ If you use these scripts, please cite:
 @article{pham2026r9exosome,
   title   = {[Your paper title]},
   author  = {Pham, Duc-Trung and [Co-authors] and Cho, Sungbo},
-  journal = {ACS Nano},
   year    = {2026},
   doi     = {(https://doi.org/10.5281/zenodo.20121815)}
 }
